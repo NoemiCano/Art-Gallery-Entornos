@@ -1,0 +1,74 @@
+body{
+    display: flex;
+
+}
+
+.titulo{
+    text-align: center;
+
+}
+
+/* Obras de arte */
+
+.obras{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+    gap: 15px;
+}
+
+.obras__mosaico{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.obras--derecha{
+    margin-left: 10px;
+    height: 300px;
+    width: 400px;
+}
+
+/* imagenes de las obras de arte */
+.obras__img--grande{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.obras__img--pequeñas{
+    height: 130px;
+    width: 180px;
+    object-fit: cover;
+}
+
+.obras__img--grande-d{
+    height: 300px;
+    width: 380px;
+    object-fit: cover;
+}
+
+/* Proximas exposiciones */
+
+.exposiciones{
+    display: flex;
+    padding: 20px;
+    
+}
+
+.exposiciones__texto{
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.exposiciones__img--tamaño{
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 10px;
+
+}
