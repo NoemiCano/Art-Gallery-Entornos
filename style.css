@@ -14,9 +14,6 @@
 
 .artistas__txt {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 5px;
